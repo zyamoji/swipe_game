@@ -87,6 +87,7 @@
 
 body {
   position: fixed;
+  overscroll-behavior-y: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
