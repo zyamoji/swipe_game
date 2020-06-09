@@ -7,6 +7,67 @@
   pointer-events: none;
 }
 
+.GameBoard {
+  border: 1px solid;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+}
+
+.GameTitle {
+  font-size: 24pt;
+  margin-top: 30px;
+}
+
+.ScoreDiv {
+  margin-top: 10px;
+}
+
+.ScoreTable, td, tr {
+  margin: auto;
+  border-collapse: collapse;
+  border: solid 1px;
+}
+
+.TapToStart {
+  margin-top: 104px;
+}
+
+.CountDown {
+  font-size: 36pt;
+}
+
+.LeftTime {
+  margin: 10px;
+  text-align: right;
+}
+
+.SwipeRules {
+  margin-top: 100px;
+  margin-left: 42px;
+  overflow: hidden;
+}
+
+.SwipeBox {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  border: solid 1px;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.FinishText {
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+.GameScore {
+  margin: 0px 0px 0px 10px;
+  float: left;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
